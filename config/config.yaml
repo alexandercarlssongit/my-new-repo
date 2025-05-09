@@ -1,0 +1,31 @@
+# Application Configuration
+app:
+  name: Triangle Calculator
+  version: 1.0.0
+  debug: true
+
+# Server Configuration
+server:
+  host: 0.0.0.0
+  port: 5000
+  api_prefix: /api/v1
+
+# Database Configuration
+database:
+  host: localhost
+  port: 3306
+  name: triangle_db
+  user: root
+  password: root
+  charset: utf8mb4
+
+# Logging Configuration
+logging:
+  level: INFO
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  file: logs/triangle_app.log
+
+# Frontend Configuration
+frontend:
+  port: 8501
+  host: localhost 
